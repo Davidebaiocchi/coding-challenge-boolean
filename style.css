@@ -1,0 +1,71 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+/* BACKGROUND */
+body{
+  background-image: url(background.jpg);
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nero{
+  background-color: rgba(0,0,0,0.6);
+  background-position: top;
+  width: 60%;
+  margin: 20px auto;
+  height: 790px;
+  padding-top: 10px;
+  border-radius:15px
+
+}
+/* LOGO E TITOLO */
+header{
+  text-align: center;
+  margin-top: 50px;
+  color:#02ca02;
+}
+/* NAVIGATORE */
+nav{
+  text-align: center;
+  background-color:#02ca02;
+  padding: 13px 50px;
+  margin: auto 50px;
+}
+/*SCELTA MONOPATTINO*/
+h2{
+  display: inline-block;
+}
+main {
+  padding-left: 50px;
+   margin-top: 20px;
+   color: white;
+ }
+
+.monopattino{
+  margin-bottom:30px;
+}
+
+.batteriagialla{
+ background-color:orange;
+ width: 330px;
+ height: 30px;
+ border-radius:5px;
+}
+.batteriaverde{
+ background-color:green;
+ width: 440px;
+ height: 30px;
+ border-radius:5px;
+}
+.batteriarossa{
+ background-color:red;
+ width: 110px;
+ height: 30px;
+ border-radius:5px;
+}
+.via{
+  margin-top:3px;
+  margin-bottom:3px;
+}
